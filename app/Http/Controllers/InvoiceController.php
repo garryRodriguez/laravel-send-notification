@@ -4,18 +4,23 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
-use App\Nofitications\InvoicePaid;
+use App\Notifications\InvoicePaid;
 
 class InvoiceController extends Controller
 {
-    public function payInvoice(){
-        $user = User::find(1); // Assume user with id 1
-        $amount = 100; //invoice amount
+    public function payInvoice($userId, $amount){
+        $user = User::find($userId); // Assume user with id 1
 
-        /**
-         * send the notification
-         */
-        $user->notify(new InvoicePaid($amount));
-        return response()->json(['message' => 'Invoice paid and notification sent!']);
+        if ($user) {
+             /**
+             * send the notification
+             */
+            $user->notify(new InvoicePaid($amount));
+            return response()->json(['message' => 'Invoice paid and notification sent!']);     
+        }
+
+        return response()->json(['error' => 'User not found!'], 404);
+
+       
     }
 }

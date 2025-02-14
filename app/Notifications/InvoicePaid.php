@@ -38,7 +38,7 @@ class InvoicePaid extends Notification
         return (new MailMessage)
                     ->subject('Invoice Paid')
                     ->greeting('Hello, ' . $notifiable->name . '!')
-                    ->line('Your invoice of $ ' . $this->amount . 'has been successfully paid!')
+                    ->line('Your invoice of $ ' . $this->amount . ' has been successfully paid!')
                     ->action('View Invoice', url('/invoices'))
                     ->line('Thank you for your business!');
     }
