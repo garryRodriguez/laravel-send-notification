@@ -10,9 +10,10 @@
 <body class="bg-gray-100">
     <!-- Hero Section -->
     <section class="bg-blue-600 text-white text-center py-16">
-        <h1 class="text-4xl font-bold">Professional Web Development Services</h1>
+        <h1 class="text-4xl font-bold">Garry Rodriguez</h1>
+        <p class="font-bold">Professional Web Developer</p>
         <p class="mt-4 text-lg">Custom websites and Web Apps tailored to your business needs.</p>
-        <a href="#contact" class="mt-6 inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-200">Get Started</a>
+        <a href="#" class="mt-6 inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-200">View Projects</a>
     </section>
 
     <!-- About Section -->
@@ -20,13 +21,21 @@
         <!-- Left Content -->
         <div>
             <h2 class="text-3xl font-bold">About Me</h2>
-            <p class="mt-4 text-lg">I am a professional web developer providing high-quality services.</p>
+            <p class="mt-4 text-lg">
+                I am a passionate and experienced full-stack web developer dedicated to crafting high-quality, scalable, and user-friendly websites and web applications. With a strong background in Laravel, PHP, and MySQL, I specialize in building dynamic and efficient backend systems that power seamless digital experiences. My expertise extends beyond backend development, as I also work with JavaScript, HTML, and CSS to create responsive and visually appealing interfaces.
+            </p>
+            <p class="mt-4 text-lg">
+                Over the years, I have successfully developed and deployed numerous web applications, ranging from business websites to complex SaaS solutions. Whether it's designing a robust database architecture in MySQL, implementing secure authentication systems, or optimizing performance, I always strive for excellence in every project. My ability to integrate modern frameworks and technologies ensures that the applications I build are not only functional but also future-proof.
+            </p>
+            <p class="mt-4 text-lg">
+                In addition to my technical skills, I am committed to delivering exceptional user experiences and solving real-world problems through innovative web solutions. I continuously stay updated with industry trends and best practices, ensuring that my work meets the highest standards. If you're looking for a developer who can bring your vision to life with clean, efficient, and maintainable code, I'm here to help. Let's build something great together!
+            </p>
         </div>
         
         <!-- Right Column -->
         <div class="flex flex-col items-center">
             <!-- Profile Image -->
-            <img src="your-image.jpg" alt="Your Image" class="w-40 h-40 rounded-full shadow-md">
+            <img src="#" alt="#" class="w-40 h-40 rounded-full shadow-md">
             
             <!-- Skills -->
             <h3 class="text-xl font-semibold mt-6">Skills</h3>
